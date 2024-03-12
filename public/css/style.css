@@ -1,113 +1,149 @@
-body {
-    background-color: rgb(245, 238, 178);
-    background-image: url('');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0&display=swap');
+
+* {
     font-family: 'Poppins', sans-serif;
-  }
-  
-  .navTitle {
+}
+
+body {
+    background-image: url('/images/markus-spiske-iar-afB0QQw-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    background-color: rgb(10, 10, 10);
+}
+
+.nav-link {
+    color: rgb(232, 238, 231);
+}
+
+.nav-link:hover {
+    color: rgb(221, 243, 24);
+}
+
+
+#logout {
+    border: none;
+    background-color: transparent;
+    color: rgb(160, 158, 29);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#logout:hover {
+    background-color: rgba(232, 238, 231, 0.1); 
+    color: rgb(221, 243, 24);
+}
+
+
+.navTitle {
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
     font-size: xx-large;
-  }
-  
-  .blogBox {
-    margin-top: 8px;
+}
+
+.blogBox {
+    margin-top: 30px;
     border-style: solid;
-  }
-  
-  .blogTitle {
+}
+
+.blogTitle {
     text-decoration: none;
-    color: darkkhaki;
-  }
-  
-  .blogDesc {
+    color: rgb(25, 87, 6);
+}
+
+.blogDesc {
     border-style: solid;
     margin-bottom: 5px;
     padding: 2px;
-    background-color: rgb(77, 99, 39);
-  }
-  
-  .blogDescMain {
+    background-color: rgb(135, 161, 85);
+}
+
+.blogDescMain {
     font-weight: 700;
-  }
-  
-  .blogDescTwo {
+}
+
+.blogDescTwo {
     font-size: 25px;
     font-style: italic;
-  }
-  
-  .blogCreate {
+}
+
+.blogCreate {
     font-weight: bold;
     font-style: italic;
     font-size: 12px;
     padding: 5px;
     color: darkkhaki;
-  }
-  
-  .blogBoxCont {
-      margin-top: 10px;
+}
+
+.blogBoxCont {
+    margin-top: 10px;
     border-style: solid;
     background-color: rgb(77, 99, 39);
-  }
-  
-  .formCont {
+}
+
+.formCont {
     margin-top: 10px;
     max-width: 75%;
     margin-left: auto;
     margin-right: auto;
-  }
-  
-  
-  .commentCont {
+}
+
+
+.commentCont {
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
     max-width: 75%;
     background-color: rgb(77, 99, 39);
-  }
-  
-  .commentOwner {
+}
+
+.commentOwner {
     font-size: 14px;
-  }
-  
-  .btnComment {
+}
+
+.btnComment {
     margin-top: 10px;
-  }
-  
-  .commentText {
+}
+
+.commentText {
     font-weight: bold;
     padding-top: 10px;
     background-color: rgb(77, 99, 39);
-  }
-  
-  .commentCont {
+}
+
+.commentCont {
     border-style: dashed;
-  }
-  
-  .headerRow {
-    background-color: black;
+}
+
+.headerRow {
+    background-color: rgb(10, 10, 10);
     margin-bottom: 10px;
-  }
-  
-  a:link {
-    color: rgb(29, 200, 23);
-  }
-  a:visited {
+}
+
+a:link {
+    color: rgb(232, 238, 231);
+}
+
+a:visited {
     color: rgb(160, 158, 29);
-  }
-  
-  a:hover {
+}
+
+a:hover {
     color: rgb(221, 243, 24);
-  }
-  
-  .login{
-      margin-left: 25px;
-  }
-  
-  .signup{
-      margin-left: 25px;
-  }
-  
-  .form-group{
-      margin-top: 10px;
-  }
+}
+
+.login {
+    margin-left: 25px;
+}
+
+.signup {
+    margin-left: 25px;
+}
+
+.form-group {
+    margin-top: 10px;
+}
