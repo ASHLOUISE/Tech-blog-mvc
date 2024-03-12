@@ -128,9 +128,7 @@ a:link {
     color: rgb(232, 238, 231);
 }
 
-a:visited {
-    color: rgb(160, 158, 29);
-}
+
 
 a:hover {
     color: rgb(221, 243, 24);
@@ -147,3 +145,21 @@ a:hover {
 .form-group {
     margin-top: 10px;
 }
+
+.welcome-text,
+.create-blog-box,
+.current-blogs {
+  color: #fff; 
+  text-align: center;
+}
+
+.welcome-text h2 {
+    font-size: 4rem;
+    text-align: center;
+}
+
+
+  
+
+  
+
