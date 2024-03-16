@@ -19,7 +19,7 @@ body {
 }
 
 .nav-link:hover {
-    color: rgb(221, 243, 24);
+    color: #a428f7;
 }
 
 
@@ -92,6 +92,14 @@ body {
     margin-right: auto;
 }
 
+.form-input {
+    width: 100%; 
+    padding: 10px; 
+    font-size: 16px; 
+    border-radius: 10px; 
+    border: 1px solid #ccc; 
+    box-sizing: border-box; 
+}
 
 .commentCont {
     margin-left: auto;
@@ -107,6 +115,30 @@ body {
 
 .btnComment {
     margin-top: 10px;
+}
+
+.btn-btn-danger {
+    background-color: rgb(232, 238, 231);
+    color: rgb(10, 10, 10);
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+
+}
+.btn-create {
+    background-color: rgb(232, 238, 231);
+    color: rgb(10, 10, 10);
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.btn-create:hover {
+    background-color: rgba(232, 238, 231, 0.8); /* Darken background color on hover */
 }
 
 .commentText {
@@ -125,13 +157,11 @@ body {
 }
 
 a:link {
-    color: rgb(232, 238, 231);
+    color: #a428f7;
 }
 
-
-
 a:hover {
-    color: rgb(221, 243, 24);
+    color: rgb(37, 136, 12);
 }
 
 .login {
@@ -158,8 +188,52 @@ a:hover {
     text-align: center;
 }
 
+.dashboard-blog-title {
+    font-size: 2rem; 
+    font-weight: bold; 
+    background-color: beige;
+    margin-left: 320px;
+    margin-right: 320px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 5px;
+    
+}
 
-  
+.dashboard-blog-content {
+    font-size: 1.2rem; 
+    font-style: italic; 
+    color: #0000ff; 
+    
+}
 
-  
+.create-blog-heading {
+    font-size: 2rem; 
+    font-weight: bold; 
+    color: #a428f7;
+    margin-top: 150px;
+}
 
+.highlighted-text {
+   background-color: beige;
+   border-radius: 10px;
+}
+
+.current-blogs-box h3 {
+    font-size: 2rem; 
+    font-weight: bold; 
+    color: #a428f7;
+    background-color: beige;
+    border-radius: 10px;
+    margin-top: 150px;
+}
+
+.col-auto-welcome-text h2 {
+    font-size: 4rem;
+    text-align: center;
+    color: #a428f7;
+    background-color: beige;
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
