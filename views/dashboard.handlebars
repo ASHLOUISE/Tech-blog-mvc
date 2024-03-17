@@ -1,5 +1,5 @@
-<div class="row">
-  <div class="col-auto-welcome-text">
+<div class="row justify-content-center">
+  <div class="col-auto">
     <h2>Welcome, {{username}}!</h2>
   </div>
 </div>
@@ -7,7 +7,7 @@
 <div class="row mt-4">
   <div class="col-md-6 create-blog-box">
     <div class="create-blog-heading highlighted-text"> 
-    <h3>Create a New Blog:</h3>
+    <h3><b>Create New Blog:</b></h3>
     </div>
     <form class="form new-blog-form">
       <div class="form-group">
@@ -27,9 +27,8 @@
   <div class="col-md-6 blog-list current-blogs">
     <div class="current-blogs-box">
     <h3>Current Blogs:</h3>
-
     {{#each blogs as |blog|}}
-    <div class="row mb-2">
+    <div class="row mb-2 blog-entry">
       <div class="col-md-8">
         <h4 class="dashboard-blog-title"><a href="/blog/{{blog.id}}">{{blog.title}}</a></h4>
       </div>

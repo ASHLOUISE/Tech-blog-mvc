@@ -3,6 +3,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tech Blog</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
         crossorigin="anonymous" />
     <link rel="stylesheet" href="/css/style.css" />
@@ -11,15 +12,9 @@
 
 <body>
     <div class="flex-column justify-space-around">
-
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid navBack">
-                <a class="navbar-brand navTitle" href="/">The Tech Blog</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+                <a class="navbar-brand navTitle" href="/">THE TECH BLOG 👩‍💻</a>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
@@ -30,7 +25,6 @@
                         <li class="nav-item">
                             <a class="nav-link" href="/dashboard">Dashboard</a>
                         </li>
-
 
                         <li class="nav-item">
                             <button class="no-button" id="logout">Logout</button>
@@ -57,9 +51,6 @@
         <footer>
         </footer>
     </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-        crossorigin="anonymous"></script>
 
     {{#if logged_in}}
     <script src="/js/logout.js"></script>
