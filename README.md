@@ -5,7 +5,8 @@
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Video-Demo](#video-demo)
+- [Assets](#assets)
+- [Deployed Link](#deployed-link)
 - [Links](#links)
 - [License](#license)
 
@@ -38,12 +39,21 @@ The application is built using the Model-View-Controller (MVC) architectural pat
 - Start creating and managing your blog posts!
 
 
-### Video Demo
-https://drive.google.com/file/d/1GAFFSDad355xRTOS9P74742_LeZfvfMt/view
+### Assets
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
+![alt text](image-3.png)
+![alt text](image-4.png)
 
 
-### Links
-GitHub Deployed: https://ashlouise.github.io/Tech-blog-mvc/
+
+
+### Deployed Link
+
+
+
+### Link
 
 GitHub: https://github.com/ASHLOUISE
 
