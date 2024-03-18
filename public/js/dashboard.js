@@ -23,7 +23,7 @@ const newFormHandler = async (event) => {
 		}
 	} catch (error) {
 		console.error('Error:', error);
-		// Handle any other errors if necessary
+		
 	}
 };
 
@@ -44,7 +44,7 @@ const delButtonHandler = async (event) => {
 			}
 		} catch (error) {
 			console.error('Error:', error);
-			// Handle any other errors if necessary
+			
 		}
 	}
 };
